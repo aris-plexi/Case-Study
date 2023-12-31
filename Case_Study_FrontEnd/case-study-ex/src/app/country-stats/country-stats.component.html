@@ -1,0 +1,20 @@
+<!-- country-stats.component.html -->
+<h2>Countries</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Area</th>
+      <th>Country Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let country of countries">
+      <td>
+        <a href="#" (click)="showCountryLanguages(country.id); $event.preventDefault()">{{ country.name }}</a>
+      </td>
+      <td>{{ country.area | number }}</td>
+      <td>{{ country.countryCode2 }}</td>
+    </tr>
+  </tbody>
+</table>

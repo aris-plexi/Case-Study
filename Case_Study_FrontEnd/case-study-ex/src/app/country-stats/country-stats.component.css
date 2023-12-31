@@ -1,0 +1,39 @@
+table {
+    width: 100%; 
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  th {
+    background-color: #f2f2f2; 
+  }
+  
+ 
+  th:nth-child(1), td:nth-child(1) { 
+    width: 50%; 
+  }
+  
+  th:nth-child(2), td:nth-child(2) { 
+    width: 30%; 
+  }
+  
+  th:nth-child(3), td:nth-child(3) { 
+    width: 20%; 
+  }
+
+  a {
+    color: #007bff; /* Bootstrap default link color, or choose your own */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover to indicate interactivity */
+    cursor: pointer; /* Change cursor to pointer to indicate a link */
+  }
+  
